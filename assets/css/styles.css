@@ -9,7 +9,7 @@ body {
 }
 
 /* 4K-2560px */
-/* BANNER */
+/* BANNER LAYOUT 1*/
 #bg-img {
     background-image: url(../images/banner.png);
     background-size: cover;
@@ -62,18 +62,51 @@ nav ul li a {
     margin-left: -230px;
 }
 
-h2 {
+header h2, .Nationwide-Coverage h2 {
     font-size: 43px;
 }
 
-h4 {
+header h4 {
     font-size: 46.5px;
     font-weight: lighter;
 }
 
-p {
+header p {
     font-size: xx-large;
 }
+
+header {
+    margin-bottom: 200px;
+}
+
+/* CARDS LAYOUT 2*/
+#card-head {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Our-Services h4 {
+    margin-top: -200px;
+    margin-bottom: 140px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.Our-Services a {
+    padding-right: 0%;
+    padding-top: 0%;
+}
+
+.Our-Services {
+    margin-bottom: 200px;
+}
+/* MAP LAYOUT 3 */
+.Nationwide-Coverage{
+    background-color: #262627;
+    color:white;
+}
+
 
 /* LAPTOP-L */
 /* media query for 1440px to 2559px */
@@ -109,16 +142,16 @@ p {
         margin-left: 120px;
     }
 
-    h2 {
+    header h2 {
         font-size: 24.5px;
     }
 
-    h4 {
+    header h4 {
         font-size: 26.5px;
         font-weight: lighter;
     }
 
-    p {
+    header p {
         font-size: large;
     }
 
@@ -130,6 +163,27 @@ p {
         margin-top: -8px;
         background-color: #24ABE2;
     }
+
+    header {
+        margin-bottom: 140px;
+    }
+
+    /* CARDS LAYOUT 2*/
+    #card-head {
+        font-size: 27px;
+    }
+
+    .Our-Services h4 {
+        margin-top: -110px;
+        margin-bottom: 70px;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+    }
+
+    .Our-Services {
+        margin-bottom: 150px;
+    }
+
 }
 
 /* LAPTOP */
@@ -166,16 +220,16 @@ p {
         margin-left: 147px;
     }
 
-    h2 {
+    header h2 {
         font-size: 18px;
     }
 
-    h4 {
+    header h4 {
         font-size: 19.5px;
         font-weight: lighter;
     }
 
-    p {
+    header p {
         font-size: smaller;
     }
 
@@ -187,6 +241,27 @@ p {
         margin-top: -2px;
         background-color: #24ABE2;
     }
+
+    header {
+        margin-bottom: 110px;
+    }
+
+    /* CARDS LAYOUT 2*/
+    #card-head {
+        font-size: 18px;
+    }
+
+    .Our-Services h4 {
+        margin-top: -80px;
+        margin-bottom: 50px;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+    }
+
+    .Our-Services {
+        margin-bottom: 110px;
+    }
+
 }
 
 /* TABLET */
@@ -227,16 +302,16 @@ p {
         margin-left: 100px;
     }
 
-    h2 {
+    header h2 {
         font-size: 15px;
     }
 
-    h4 {
+    header h4 {
         font-size: 17px;
         font-weight: lighter;
     }
 
-    p {
+    header p {
         font-size: x-small;
     }
 
@@ -253,7 +328,31 @@ p {
         background-position: center;
         padding-top: 300px;
     }
+
+    header {
+        margin-bottom: 70px;
+    }
+
+    /* CARDS LAYOUT 2 */
+    #card-head {
+        font-size: 37px;
+    }
+
+    .Our-Services h4 {
+        margin-top: -160px;
+        margin-bottom: 95px;
+    }
+
+    .Our-Services {
+        margin-bottom: 70px;
+    }
+
+    .Our-Services .row {
+        padding-left: 20px;
+        width: 780px;
+    }
 }
+
 /* MOBILE */
 /* Media query for 320px to 767px */
 @media (min-device-width: 320px) and (max-device-width: 767px) {
@@ -294,17 +393,17 @@ p {
         margin-left: 40px;
     }
 
-    h2 {
+    header h2 {
         font-size: 5px;
     }
 
-    h4 {
+    header h4 {
         font-size: 5.4px;
         font-weight: lighter;
     }
 
-    p {
-        font-size:4px;
+    header p {
+        font-size: 4px;
     }
 
 
@@ -323,5 +422,34 @@ p {
         background-size: cover;
         background-position: center;
         padding: 70px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    /* CARDS LAYOUT 2*/
+    #card-head {
+        font-size: 15px;
+    }
+
+    .Our-Services h4 {
+        margin-top: -65px;
+        margin-bottom: 40px;
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .Our-Services {
+        margin-bottom: 150px;
+    }
+
+    .Our-Services a {
+        padding: 1%;
+    }
+
+    .Our-Services .row {
+        padding-left: 20px;
+        width: 330px;
     }
 }
