@@ -62,7 +62,8 @@ nav ul li a {
     margin-left: -230px;
 }
 
-header h2, .Nationwide-Coverage h2 {
+header h2,
+.Nationwide-Coverage h2 {
     font-size: 43px;
 }
 
@@ -80,6 +81,10 @@ header {
 }
 
 /* CARDS LAYOUT 2*/
+.Our-Services .row {
+    width: 100% !important;
+}
+
 #card-head {
     color: rgb(255, 255, 255);
     font-size: 50px;
@@ -101,10 +106,42 @@ header {
 .Our-Services {
     margin-bottom: 200px;
 }
+
 /* MAP LAYOUT 3 */
-.Nationwide-Coverage{
+.Nationwide-Coverage .container-fluid {
     background-color: #262627;
-    color:white;
+    color: white;
+}
+
+.Nationwide-Coverage h2 {
+    margin-top: 8%;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.Nationwide-Coverage .row {
+    width: 100%;
+}
+
+#map-contents {
+    margin-top: 6%;
+}
+
+#map-contents b {
+    font-size: x-large;
+}
+
+#map-container {
+    height: 400px;
+}
+
+.Nationwide-Coverage span p,
+.Nationwide-Coverage span {
+    font-size: x-large;
+}
+
+.Nationwide-Coverage img {
+    margin-right: 6%;
 }
 
 
@@ -184,6 +221,33 @@ header {
         margin-bottom: 150px;
     }
 
+    /* MAP LAYOUT 3*/
+    .Nationwide-Coverage h2 {
+        font-size: xx-large;
+    }
+
+    .Nationwide-Coverage img {
+        height: 70%;
+    }
+
+    #map-contents {
+        margin-top: 4%;
+    }
+
+    #map-contents b {
+        font-size: small;
+    }
+
+    .Nationwide-Coverage span p,
+    .Nationwide-Coverage span {
+        font-size: 12px;
+    }
+
+    .Nationwide-Coverage .container-fluid {
+        height: 400px;
+    }
+
+
 }
 
 /* LAPTOP */
@@ -262,6 +326,31 @@ header {
         margin-bottom: 110px;
     }
 
+    /* MAP LAYOUT 3 */
+    .Nationwide-Coverage img {
+        height: 50%;
+    }
+
+    .Nationwide-Coverage h2 {
+        font-size: larger;
+    }
+
+    #map-contents {
+        margin-top: 2%;
+    }
+
+    #map-contents b {
+        font-size: x-small;
+    }
+
+    .Nationwide-Coverage span p,
+    .Nationwide-Coverage span {
+        font-size: 6px;
+    }
+
+    .Nationwide-Coverage .container-fluid {
+        height: 280px;
+    }
 }
 
 /* TABLET */
@@ -351,6 +440,13 @@ header {
         padding-left: 20px;
         width: 780px;
     }
+
+    /* MAP LAYOUT 3 */
+    .Nationwide-Coverage img {
+        height: 40%;
+    }
+
+    /*START FROM HERE------------------------------------------------ */
 }
 
 /* MOBILE */
