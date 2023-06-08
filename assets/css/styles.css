@@ -142,8 +142,104 @@ header {
 
 .Nationwide-Coverage img {
     margin-right: 6%;
+    height: 750px;
 }
 
+/* LAYOUT 4 VECTOR CARDS */
+.vector-cards {
+    margin-right: 205px;
+}
+
+.card-border-size {
+    width: 450px;
+    height: 600px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    /* Hide overflowed image */
+}
+
+/* Background vector Image Styles*/
+/* card number 20,60,100 */
+#num {
+    position: absolute;
+    z-index: 1;
+}
+
+/* card border */
+.bor-card {
+    position: relative;
+    z-index: 0;
+}
+
+/* card text */
+.txt-top {
+    position: absolute;
+    z-index: 1;
+    margin-top: -70px;
+}
+
+/* croping calander bg-img */
+.crop-image {
+    position: relative;
+    overflow: hidden;
+    height: 370px;
+    margin-top: 160px;
+    margin-right: -3px;
+    z-index: 0;
+}
+
+.crop-image img {
+    position: relative;
+    right: -27%;
+    top: 0;
+    width:90%;
+    height: 74%;
+    transform: translateY(50%);
+    /* Adjust the percentage value to crop the desired amount from the bottom */
+}
+
+/* croping certificate bg-img */
+.crop-image2 {
+    position: relative;
+    overflow: hidden;
+    height: 370px;
+    margin-top: 160px;
+    margin-right: -3px;
+    z-index: 0;
+}
+
+.crop-image2 img {
+    position: relative;
+    /* adjust to cut the right side */
+    right: -30%;
+    top: 0;
+    width: 90%;
+    height: 74%;
+    transform: translateY(50%);
+    /* Adjust the percentage value to crop the desired amount from the bottom */
+}
+
+#card2 {
+    margin-left: 110px;
+}
+
+#card3 {
+    margin-left: 110px;
+}
+
+.Trading-Cards {
+    margin-left: -50px;
+}
+
+.Trading-Cards {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 /* LAPTOP-L */
 /* media query for 1440px to 2559px */
@@ -443,10 +539,19 @@ header {
 
     /* MAP LAYOUT 3 */
     .Nationwide-Coverage img {
-        height: 40%;
+        height: 80%;
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 100px;
     }
 
-    /*START FROM HERE------------------------------------------------ */
+    .Nationwide-Coverage .container-fluid {
+        padding-bottom: 750px;
+    }
+
+    #map-container {
+        margin-left: 15px;
+    }
 }
 
 /* MOBILE */
@@ -537,7 +642,9 @@ header {
     }
 
     .Our-Services {
-        margin-bottom: 150px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        margin-left: 10px;
     }
 
     .Our-Services a {
@@ -547,5 +654,37 @@ header {
     .Our-Services .row {
         padding-left: 20px;
         width: 330px;
+    }
+
+    /* MAP LAYOUT 3 */
+    .Nationwide-Coverage img {
+        height: 180px;
+        margin-right: 0px;
+        margin-top: 100px;
+    }
+
+    .Nationwide-Coverage h2 {
+        font-size: large;
+    }
+
+    #map-contents {
+        margin-top: 1%;
+    }
+
+    #map-contents b {
+        font-size: x-small;
+    }
+
+    .Nationwide-Coverage span p,
+    .Nationwide-Coverage span {
+        font-size: 15px;
+    }
+
+    .Nationwide-Coverage .container-fluid {
+        height: 1050px;
+    }
+
+    #map-container {
+        margin-left: 15px;
     }
 }
