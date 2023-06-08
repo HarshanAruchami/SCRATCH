@@ -33,7 +33,7 @@ a:hover {
 }
 
 #nav {
-    margin-left: 15%;
+    margin-left: 11%;
 }
 
 #logo-size {
@@ -47,7 +47,7 @@ nav ul li a {
     margin-top: 20px;
 }
 
-#enquire-btn {
+#enquire-btn1 {
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 10px;
@@ -322,6 +322,19 @@ header {
     margin-right: 90px;
 }
 
+.enquire-form {
+    margin-bottom: 200px;
+}
+
+/* LAYOUT 6 ACCREDITATIONS */
+.Our-Accreditations h2 {
+    margin-bottom: 100px;
+}
+
+.Our-Accreditations img {
+    margin-left: 100px;
+}
+
 
 /* LAPTOP-L */
 /* media query for 1440px to 2559px */
@@ -348,7 +361,7 @@ header {
     }
 
     #nav {
-        margin-left: 230px;
+        margin-left: 170px;
     }
 
     #banner-content {
@@ -370,7 +383,7 @@ header {
         font-size: large;
     }
 
-    #enquire-btn {
+    enquire-btn1 {
         padding-right: 10px;
         padding-left: 10px;
         padding-top: 5px;
@@ -493,6 +506,11 @@ header {
 
     .enquire-form form {
         margin-left: 0px;
+
+    }
+
+    .enquire-form {
+        margin-bottom: 8%;
     }
 
     .enquire-form a {
@@ -500,6 +518,19 @@ header {
         margin-right: 0px;
     }
 
+    /* LAYOUT 6 ACCREDITATIONS */
+    .Our-Accreditations h2 {
+        margin-bottom: 50px;
+        font-size: xx-large;
+    }
+
+    .Our-Accreditations img {
+        margin-left: 70px;
+    }
+
+    .Our-Accreditations {
+        margin-bottom: 8%;
+    }
 
 }
 
@@ -552,7 +583,7 @@ header {
         font-size: smaller;
     }
 
-    #enquire-btn {
+    enquire-btn1 {
         padding-top: 4px;
         padding-bottom: 4px;
         padding-left: 10px;
@@ -689,11 +720,29 @@ header {
         margin-left: 0px;
     }
 
+    .enquire-form {
+        margin-bottom: 8%;
+    }
+
     .enquire-form a {
         margin-top: 40px;
         margin-right: 0px;
         width: 120%;
         margin-left: -8px;
+    }
+
+    /* LAYOUT 6 ACCREDITATIONS */
+    .Our-Accreditations h2 {
+        margin-bottom: 50px;
+        font-size: xx-large;
+    }
+
+    .Our-Accreditations img {
+        margin-left: 50px;
+    }
+
+    .Our-Accreditations {
+        margin-bottom: 8%;
     }
 
 }
@@ -720,7 +769,7 @@ header {
         margin-left: 25px;
     }
 
-    #enquire-btn {
+    enquire-btn1 {
         padding-top: 4px;
         padding-bottom: 4px;
         padding-left: 18px;
@@ -818,11 +867,44 @@ header {
     }
 
     /* ENQUIRE FORM LAYOUT 5 */
+    .enquire-form form {
+        justify-content: center;
+
+    }
+
+    .enquire-form input,
+    textarea {
+        margin-left: 23px;
+    }
+
+    .enquire-form label {
+        margin-left: 23px;
+    }
+
     .enquire-form textarea {
         width: 80%;
     }
+
     .enquire-form a {
         margin-left: -30px;
+    }
+
+    .enquire-form {
+        margin-bottom: 8%;
+    }
+
+    /* LAYOUT 6 ACCREDITATIONS */
+    .Our-Accreditations h2 {
+        margin-bottom: 50px;
+
+    }
+
+    .Our-Accreditations img {
+        margin-left: 50px;
+    }
+
+    .Our-Accreditations {
+        margin-bottom: 8%;
     }
 }
 
@@ -880,7 +962,7 @@ header {
     }
 
 
-    #enquire-btn {
+    enquire-btn1 {
         margin-top: -5px;
         background-color: #24ABE2;
         padding-top: 3px;
@@ -1035,14 +1117,49 @@ header {
         width: 100%;
         margin-bottom: 10px;
     }
-    .enquire-form form{
+
+    .enquire-form form {
         margin: 0%;
         padding: 20px;
     }
-    .enquire-form a{
+
+    .enquire-form a {
         margin-top: 10px;
         margin-right: 0%;
         margin-left: 5px;
-     
+
+    }
+
+    .enquire-form h2 {
+        font-size: large;
+        margin-bottom: 0%;
+    }
+
+    .enquire-form label {
+        font-size: small;
+    }
+
+    .enquire-form {
+        margin-bottom: 25%;
+    }
+
+    /* LAYOUT 6 ACCREDITATIONS */
+    .Our-Accreditations h2 {
+        margin-bottom: 20px;
+        font-size: large;
+
+    }
+
+    .Our-Accreditations img {
+        margin-left: 50px;
+    }
+
+    .Our-Accreditations {
+        margin-bottom: 8%;
+    }
+    .Our-Accreditations img{
+        width: 500%;
+        margin-left: 0%;
+        margin-top: 30px;
     }
 }
