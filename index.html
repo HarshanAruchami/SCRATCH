@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- Fontawesome CSS cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Jquery cdns -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -36,7 +41,8 @@
         <section class="Navbar">
             <div class="container-fluid">
                 <div class="row">
-                    <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top" id="nav">
+                    <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top navigation-in justify-content-xl-center"
+                        id="nav">
                         <!-- Logo -->
                         <div class="col-6 col-md-3">
                             <a class="navbar-brand" href="#">
@@ -72,7 +78,7 @@
                                     </li>
                                     <!-- Navbar button -->
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link" id="enquire-btn">
+                                        <a href="#" class="nav-link" id="enquire-btn1">
                                             ENQUIRE NOW
                                         </a>
                                     </li>
@@ -225,44 +231,110 @@
     <section class="Trading-Cards">
         <div class="container-fluid">
             <div class="row justify-content-lg-center">
-                <div class="col-xl-2 col-9" id="card1">
-                    <div class="card border-info card-border-size float-right float-xl-none">
-                        <div class="card-body text-xl-center text-center p-0">
-                            <img src="./assets/images/Calendar Icon.svg" width="65px" class=""
-                                alt="Calendar-Icon">
-                            <h1 class="card-title display-1 font-weight-bold" id="num">20
+                <div class="col-lg-2 col-7" id="card1">
+                    <div class="card border-info card-border-size">
+                        <div class="card-body text-center p-0">
+                            <img src="./assets/images/Calendar Icon.svg" width="30%" class="icon" alt="Calendar-Icon">
+                            <h1 class="card-title display-1 font-weight-bold" id="num1">20
                             </h1>
                             <div class="crop-image">
                                 <img src="./assets/images/Calendar bg-Icon.svg" alt="Image">
                             </div>
-                            <p class="txt-top"><b>Years of Trading</b></p>
+                            <p><b>Years of Trading</b></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-9" id="card2">
-                    <div class="card border-info card-border-size float-right float-xl-none">
-                        <div class="card-body text-xl-center text-center p-0">
-                            <img src="./assets/images/Certificate Icon.svg" width="65px" class=""
+                <div class="col-lg-2 col-7" id="card2">
+                    <div class="card border-info card-border-size ">
+                        <div class="card-body text-center p-0">
+                            <img src="./assets/images/Certificate Icon.svg" width="30%" class="icon"
                                 alt="Calendar-Icon">
-                            <h1 class="card-title display-1 font-weight-bold" id="num">60
+                            <h1 class="card-title display-1 font-weight-bold" id="num1">60
                             </h1>
                             <div class="crop-image2">
                                 <img src="./assets/images/Certificate bg-Icon.svg" alt="Image">
                             </div>
-                            <p class="txt-top"><b>Years of Trading</b></p>
+                            <p><b>Years of Trading</b></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-9" id="card3">
+                <div class="col-lg-2 col-7" id="card3">
                     <div class="card border-info card-border-size">
-                        <div class="card-body text-xl-center text-center p-0">
-                            <img src="./assets/images/Tick Icon.svg" width="65px" class=""
-                                alt="Calendar-Icon">
+                        <div class="card-body text-center p-0">
+                            <img src="./assets/images/Tick Icon.svg" width="30%" class="icon" alt="Calendar-Icon">
                             <h1 class="card-title display-1 font-weight-bold" id="num">100</h1>
-                            <div class="crop-image">
+                            <div class="crop-image3">
                                 <img src="./assets/images/Tick  bg-Icon.svg" alt="Image">
                             </div>
-                            <p class="txt-top"><b>Years of Trading</b></p>
+                            <p><b>Years of Trading</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LAYOUT 5 -->
+    <section class="enquire-form">
+        <div class="click-here">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h2 class="font-weight-bold text-light">HOW CAN WE HELP?</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Form -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="custom-form ml-0">
+                            <form method="" action="" name="" id="#">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12 ">
+                                        <div class="form-group">
+                                            <label class="contact-lable text-light">First Name</label>
+                                            <input name="name" id="name" class="form-control" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="contact-lable text-light">Last Name</label>
+                                            <input name="name" id="lastname" class="form-control" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="contact-lable text-light">Telephone</label>
+                                            <input name="name" id="name" class="form-control" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label class="contact-lable text-light">Email</label>
+                                            <input name="name" id="lastname" class="form-control" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-11">
+                                        <div class="form-group">
+                                            <label class="contact-lable text-light">Message</label>
+                                            <textarea name="comments" id="comments" rows="5"
+                                                class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-4 col-9 col-md-6 text-center">
+                                        <a href="#" class="text-light nav-link" id="enquire-btn2"
+                                            style="background-color: #24ABE2;">
+                                            ENQUIRE NOW
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -275,11 +347,7 @@
 <script src="./assets/js/bootstrap.bundle.js"></script>
 <!-- Linking JS File -->
 <script type="text/javascript" src="./assets/js/index.js"></script>
-<!-- Jquery cdns -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
 <!-- Fontawsome JS link -->
 <script src="https://kit.fontawesome.com/d509f79d02.js" crossorigin="anonymous"></script>
 <!-- Swiper CDN -->

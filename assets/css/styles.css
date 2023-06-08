@@ -155,6 +155,7 @@ header {
     height: 600px;
 }
 
+
 .card-img-overlay {
     position: absolute;
     bottom: 0;
@@ -165,7 +166,8 @@ header {
 
 /* Background vector Image Styles*/
 /* card number 20,60,100 */
-#num {
+#num,
+#num1 {
     position: absolute;
     z-index: 1;
 }
@@ -188,7 +190,7 @@ header {
     position: relative;
     overflow: hidden;
     height: 370px;
-    margin-top: 160px;
+    margin-top: 20px;
     margin-right: -3px;
     z-index: 0;
 }
@@ -197,7 +199,7 @@ header {
     position: relative;
     right: -27%;
     top: 0;
-    width:90%;
+    width: 90%;
     height: 74%;
     transform: translateY(50%);
     /* Adjust the percentage value to crop the desired amount from the bottom */
@@ -208,7 +210,7 @@ header {
     position: relative;
     overflow: hidden;
     height: 370px;
-    margin-top: 160px;
+    margin-top: 0px;
     margin-right: -3px;
     z-index: 0;
 }
@@ -217,6 +219,26 @@ header {
     position: relative;
     /* adjust to cut the right side */
     right: -30%;
+    top: 0;
+    width: 90%;
+    height: 74%;
+    transform: translateY(50%);
+    /* Adjust the percentage value to crop the desired amount from the bottom */
+}
+
+/* croping tick bg-img */
+.crop-image3 {
+    position: relative;
+    overflow: hidden;
+    height: 370px;
+    margin-top: 0px;
+    margin-right: -3px;
+    z-index: 0;
+}
+
+.crop-image3 img {
+    position: relative;
+    right: -27%;
     top: 0;
     width: 90%;
     height: 74%;
@@ -236,10 +258,70 @@ header {
     margin-left: -50px;
 }
 
+/* WHITE SPACE TOP & BOTTOM */
 .Trading-Cards {
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#num1 {
+    margin-top: 10px;
+    margin-left: 110px;
+    font-size: 200px;
+}
+
+#num {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 200px;
+}
+
+.icon {
+    margin-top: 80px;
+}
+
+.Trading-Cards p {
+    font-size: xx-large;
+    margin-top: -100px;
+}
+
+/* LAYOUT 5 ENQUIRE FORM */
+.click-here {
+    background-image: url('../images/Enquiry\ Form.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.enquire-form h2 {
+    margin-top: 120px;
+    margin-bottom: 90px;
+    font-size: 50px;
+}
+
+#enquire-btn2 {
     margin-bottom: 100px;
 }
+
+.enquire-form form {
+    margin-left: 100px;
+}
+
+.enquire-form label {
+    font-size: x-large;
+}
+
+.enquire-form input {
+    padding: 30px;
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.enquire-form a {
+    margin-top: 90px;
+    margin-right: 90px;
+}
+
 
 /* LAPTOP-L */
 /* media query for 1440px to 2559px */
@@ -343,8 +425,85 @@ header {
         height: 400px;
     }
 
+    /* VECTOR CARDS LAYOUT 4  */
+    .card-border-size {
+        width: 270px;
+        height: 350px;
+    }
+
+    #card2 {
+        margin-left: 60px;
+    }
+
+    #card3 {
+        margin-left: 60px;
+    }
+
+    .icon {
+        margin-top: 40px;
+        width: 20%;
+    }
+
+    #num1 {
+        margin-top: 30px;
+        margin-left: 80px;
+        font-size: 100px;
+    }
+
+    #num {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 100px;
+    }
+
+    .Trading-Cards p {
+        font-size: larger;
+        margin-top: -90px;
+    }
+
+    /* croping calander bg-img */
+    .crop-image {
+        margin-top: -110px;
+    }
+
+    /* croping certificate bg-img */
+    .crop-image2 {
+        margin-top: -120px;
+    }
+
+    /* croping tick bg-img */
+    .crop-image3 {
+        margin-top: -118px;
+    }
+
+    /* ENQUIRE FORM LAYOUT 5 */
+    .enquire-form input {
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .enquire-form textarea {
+        width: 110%;
+    }
+
+    .enquire-form h2 {
+        font-size: xx-large;
+    }
+
+    .enquire-form form {
+        margin-left: 0px;
+    }
+
+    .enquire-form a {
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+
 
 }
+
+
 
 /* LAPTOP */
 /* media query for 1024px to 1439px */
@@ -447,6 +606,96 @@ header {
     .Nationwide-Coverage .container-fluid {
         height: 280px;
     }
+
+    /* VECTOR CARDS LAYOUT 4  */
+    .card-border-size {
+        width: 200px;
+        height: 280px;
+    }
+
+    #card2 {
+        margin-left: 39px;
+    }
+
+    #card3 {
+        margin-left: 39px;
+    }
+
+    .icon {
+        margin-top: 40px;
+        width: 20%;
+    }
+
+    #num1 {
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 90px;
+    }
+
+    #num {
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 90px;
+    }
+
+    .Trading-Cards p {
+        font-size: larger;
+        margin-top: -220px;
+    }
+
+    /* croping calander bg-img */
+    .crop-image {
+        margin-top: -20px;
+    }
+
+    .crop-image img {
+        height: 40%;
+    }
+
+    /* croping certificate bg-img */
+    .crop-image2 {
+        margin-top: -25px;
+    }
+
+    .crop-image2 img {
+        height: 40%;
+    }
+
+    /* croping tick bg-img */
+    .crop-image3 {
+        margin-top: -20px;
+    }
+
+    .crop-image3 img {
+        height: 40%;
+    }
+
+    /* ENQUIRE FORM LAYOUT 5 */
+    .enquire-form input {
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .enquire-form textarea {
+        width: 110%;
+    }
+
+    .enquire-form h2 {
+        font-size: xx-large;
+    }
+
+    .enquire-form form {
+        margin-left: 0px;
+    }
+
+    .enquire-form a {
+        margin-top: 40px;
+        margin-right: 0px;
+        width: 120%;
+        margin-left: -8px;
+    }
+
 }
 
 /* TABLET */
@@ -551,6 +800,29 @@ header {
 
     #map-container {
         margin-left: 15px;
+    }
+
+    /* VECTOR CARDS LAYOUT 4  */
+    #card2 {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    #card3 {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .Trading-Cards .row {
+        margin-left: 200px;
+    }
+
+    /* ENQUIRE FORM LAYOUT 5 */
+    .enquire-form textarea {
+        width: 80%;
+    }
+    .enquire-form a {
+        margin-left: -30px;
     }
 }
 
@@ -686,5 +958,91 @@ header {
 
     #map-container {
         margin-left: 15px;
+    }
+
+    /* VECTOR CARDS LAYOUT 4  */
+    .card-border-size {
+        width: 200px;
+        height: 280px;
+    }
+
+    #card1 {
+        margin-left: 110px;
+    }
+
+    #card2 {
+        margin-left: 110px;
+        margin-top: 15px;
+    }
+
+    #card3 {
+        margin-left: 110px;
+        margin-top: 15px;
+    }
+
+    .icon {
+        margin-top: 40px;
+        width: 20%;
+    }
+
+    #num1 {
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 90px;
+    }
+
+    #num {
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 90px;
+    }
+
+    .Trading-Cards p {
+        font-size: larger;
+        margin-top: -220px;
+    }
+
+    /* croping calander bg-img */
+    .crop-image {
+        margin-top: -20px;
+    }
+
+    .crop-image img {
+        height: 40%;
+    }
+
+    /* croping certificate bg-img */
+    .crop-image2 {
+        margin-top: -25px;
+    }
+
+    .crop-image2 img {
+        height: 40%;
+    }
+
+    /* croping tick bg-img */
+    .crop-image3 {
+        margin-top: -20px;
+    }
+
+    .crop-image3 img {
+        height: 40%;
+    }
+
+    /* ENQUIRE FORM LAYOUT 5 */
+    .enquire-form input {
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .enquire-form form{
+        margin: 0%;
+        padding: 20px;
+    }
+    .enquire-form a{
+        margin-top: 10px;
+        margin-right: 0%;
+        margin-left: 5px;
+     
     }
 }
