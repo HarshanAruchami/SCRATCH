@@ -18,6 +18,22 @@ body {
 
 }
 
+/* nav bar */
+#nav-font-size {
+    font-size: 13px;
+}
+
+/* navbar scrolldown */
+.navbar-fixed-top.scrolled {
+    background-color: #464646 !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.click-here {
+    background-color: #464646 !important;
+    transition: background-color 100ms linear;
+}
+
 #banner-width {
     width: 100vw;
 }
@@ -32,14 +48,14 @@ a:hover {
     color: #bdb9b9;
 }
 
-#nav {
-    margin-left: 11%;
+#logo-size {
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 370px;
 }
 
-#logo-size {
-    width: 150%;
-    margin-top: 40px;
-    margin-left: 80px;
+#home {
+    margin-left: 190px;
 }
 
 nav ul li a {
@@ -52,7 +68,6 @@ nav ul li a {
     padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 15px;
     background-color: #24ABE2;
 }
 
@@ -335,6 +350,154 @@ header {
     margin-left: 100px;
 }
 
+.Our-Accreditations {
+    margin-bottom: 200px;
+}
+
+/* TESTIMONIAL LAYOUT 7 */
+.Testimonials {
+    background-image: url(../images/Testimonials_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+}
+
+.Testimonials-Carousel .container .row {
+    margin-top: -850px;
+    margin-bottom: -600px;
+    margin-left: -480px;
+    height: 600px;
+    width: 160%;
+}
+
+.Testimonials-Carousel h2 {
+    font-size: 50px;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.Testimonials-Carousel p {
+    font-size: large;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.icon-quotes {
+    font-size: 4.5rem !important;
+    color: #ffffff;
+    position: absolute;
+    background-color: #24ABE2;
+    padding: 30px;
+    border-radius: 100px;
+    margin-top: -80px;
+    margin-left: 260px;
+}
+
+.Testimonials-Carousel {
+    margin-bottom: 600px;
+}
+
+swiper-container {
+    margin-top: 120px;
+    margin-left: 900px;
+    width: 55%;
+    height: 400px;
+}
+
+swiper-container .subpara {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+swiper-slide {
+    height: 270px;
+    margin-bottom: 200px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+swiper-slide i {
+    font-size: 200% !important;
+    background-color: #24ABE2;
+    color: white;
+    border-radius: 100px;
+    padding: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: -50px;
+    margin-left: -30px;
+}
+
+/* layout 8 */
+#blog {
+    z-index: 0;
+    position: relative;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+.txt-center-2 {
+    z-index: 1;
+    margin-left: 250px;
+    margin-top: -220px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-right: 50px;
+    font-size: xx-large;
+
+}
+
+#blog-1 {
+    margin-left: -70px;
+}
+
+#blog-2 {
+    margin-left: -70px;
+    margin-bottom: 200px;
+}
+
+.blog-cards p {
+    font-size: 20px;
+}
+
+#readmore-btn {
+    padding-right: 15px;
+    padding-left: 19px;
+    width: 30%;
+    background-color: #24ABE2;
+}
+
+/* layout 9 */
+/* footer  */
+.fnt-size {
+    font-size: medium;
+
+}
+
+#content-1 {
+    margin-left: 450px;
+}
+
+#content-1 p {
+    font-size: 130%;
+}
+
+#content-2 a,
+#content-3 a,
+#content-4 a {
+    font-size: 150%;
+}
+
+.para-font {
+    font-size: x-large
+}
+
+.fa-lg {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 /* LAPTOP-L */
 /* media query for 1440px to 2559px */
@@ -349,19 +512,19 @@ header {
     }
 
     #logo-size {
-        width: 85%;
+        width: 65%;
         margin: 20px;
-        margin-left: 20px;
+        margin-left: 190px;
+    }
+
+    #home {
+        margin-left: 100px;
     }
 
     nav ul li a {
         margin-left: 4px;
-        margin-top: -10px;
         font-size: 13px;
-    }
-
-    #nav {
-        margin-left: 170px;
+        margin-top: -5px;
     }
 
     #banner-content {
@@ -383,12 +546,11 @@ header {
         font-size: large;
     }
 
-    enquire-btn1 {
+    #enquire-btn1 {
         padding-right: 10px;
         padding-left: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
-        margin-top: -8px;
         background-color: #24ABE2;
     }
 
@@ -532,9 +694,154 @@ header {
         margin-bottom: 8%;
     }
 
+    /* TESTIMONIAL LAYOUT 7 */
+    .Testimonials {
+        height: 800px;
+    }
+
+    .Testimonials-Carousel .container .row {
+        margin-top: -610px;
+        margin-bottom: -600px;
+        margin-left: 0px;
+        height: 400px;
+        width: 90%;
+    }
+
+    .Testimonials-Carousel h2 {
+        font-size: 30px;
+        margin-top: 35%;
+    }
+
+    .Testimonials-Carousel p {
+        font-size: small;
+    }
+
+    .icon-quotes {
+        font-size: 3rem !important;
+        color: #ffffff;
+        position: absolute;
+        background-color: #24ABE2;
+        padding: 30px;
+        border-radius: 140px;
+        margin-top: 140px;
+        margin-left: 180px;
+    }
+
+    swiper-container {
+        margin-top: 280px;
+        margin-left: 500px;
+        width: 55%;
+        height: 300px;
+    }
+
+    swiper-container .subpara {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    swiper-slide {
+        height: 190px;
+
+    }
+
+    swiper-slide i {
+        font-size: 150% !important;
+        background-color: #24ABE2;
+        color: white;
+        border-radius: 100px;
+        padding: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #slide2 {
+        margin-left: -50px;
+        margin-right: -600px;
+    }
+
+    .Testimonials-Carousel {
+        margin-bottom: 400px;
+    }
+
+    /* LAYOUT 8 BLOG CARDS */
+    #blog {
+        z-index: 0;
+        position: relative;
+        margin-left: 75px;
+        margin-top: -10px;
+    }
+
+    .txt-center-2 {
+        z-index: 1;
+        margin-left: 140px;
+        margin-top: -120px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        margin-right: 50px;
+        font-size: larger;
+
+    }
+
+    #blog-1 {
+        margin-left: -5px;
+    }
+
+    #blog-2 {
+        margin-left: -30px;
+        margin-bottom: 200px;
+    }
+
+    .blog-cards p {
+        font-size: 10px;
+    }
+
+    .blog-cards h2 {
+        font-size: 15px;
+    }
+
+    #readmore-btn {
+        padding-right: 15px;
+        padding-left: 19px;
+        width: 60%;
+        background-color: #24ABE2;
+    }
+
+    /* layout 9 */
+    /* footer  */
+    .fnt-size {
+        font-size: medium;
+
+    }
+
+    #content-1 {
+        margin-left: 200px;
+    }
+
+    #content-1 p {
+        font-size: 80%;
+    }
+
+    .link-txt {
+        font-size: 100%;
+    }
+
+    #content-2 a,
+    #content-3 a,
+    #content-4 a {
+        font-size: 90%;
+    }
+
+    .para-font {
+        font-size: small;
+    }
+
+    .fa-lg {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
 }
-
-
 
 /* LAPTOP */
 /* media query for 1024px to 1439px */
@@ -551,17 +858,17 @@ header {
     #logo-size {
         width: 85%;
         margin: 10px;
-        margin-left: 40px;
+        margin-left: 150px;
     }
 
     nav ul li a {
         margin-left: 4px;
-        margin-top: -5px;
+        margin-top: -2px;
         font-size: 9px;
     }
 
-    #nav {
-        margin-left: 120px;
+    #home {
+        margin-left: 110px;
     }
 
     #banner-content {
@@ -583,12 +890,12 @@ header {
         font-size: smaller;
     }
 
-    enquire-btn1 {
+    #enquire-btn1 {
         padding-top: 4px;
         padding-bottom: 4px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-top: -2px;
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-top: 0px;
         background-color: #24ABE2;
     }
 
@@ -745,6 +1052,145 @@ header {
         margin-bottom: 8%;
     }
 
+    /* TESTIMONIAL LAYOUT 7 */
+    .Testimonials {
+        height: 600px;
+    }
+
+    .Testimonials-Carousel .container .row {
+        margin-top: -450px;
+        margin-bottom: -600px;
+        margin-left: 0px;
+        height: 300px;
+        width: 80%;
+    }
+
+    .Testimonials-Carousel h2 {
+        font-size: xx-large;
+        margin-top: 35%;
+    }
+
+    .Testimonials-Carousel p {
+        font-size: xx-small;
+    }
+
+    .icon-quotes {
+        font-size: 2rem !important;
+        color: #ffffff;
+        position: absolute;
+        background-color: #24ABE2;
+        padding: 30px;
+        border-radius: 140px;
+        margin-top: 240px;
+        margin-left: 60px;
+    }
+
+    .Testimonials-Carousel {
+        margin-bottom: 290px;
+    }
+
+    swiper-container {
+        margin-top: 330px;
+        margin-left: 330px;
+        width: 60%;
+        height: 250px;
+    }
+
+    swiper-container .subpara {
+        margin-top: 7px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    swiper-slide {
+        height: 140px;
+    }
+
+    swiper-slide i {
+        font-size: 120% !important;
+        background-color: #24ABE2;
+        color: white;
+        border-radius: 100px;
+        padding: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #slide2 {
+        margin-left: -50px;
+        margin-right: -600px;
+    }
+
+    /* LAYOUT 8 BLOG CARDS */
+    #blog {
+        z-index: 0;
+        position: relative;
+        margin-left: 75px;
+        margin-top: -10px;
+    }
+
+    .txt-center-2 {
+        z-index: 1;
+        margin-left: 110px;
+        margin-top: -80px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        margin-right: 50px;
+        font-size: small;
+
+    }
+
+    #blog-1 {
+        margin-left: -5px;
+    }
+
+    #blog-2 {
+        margin-left: -30px;
+        margin-bottom: 100px;
+    }
+
+    .blog-cards p {
+        font-size: 7px;
+    }
+
+    .blog-cards h2 {
+        font-size: medium;
+    }
+
+    #readmore-btn {
+        padding-right: 15px;
+        padding-left: 19px;
+        width: 53%;
+        background-color: #24ABE2;
+        font-size: x-small;
+    }
+
+    #content-1 {
+        margin-left: 190px;
+    }
+
+    #content-1 p {
+        font-size: 80%;
+    }
+
+    .link-txt {
+        font-size: 100%;
+    }
+
+    #content-2 a,
+    #content-3 a,
+    #content-4 a {
+        font-size: 90%;
+    }
+
+    .para-font {
+        font-size: small;
+    }
+
+    .fa-lg {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
 }
 
 /* TABLET */
@@ -755,11 +1201,12 @@ header {
     #logo-size {
         width: 170%;
         height: 100%;
-        margin: 10px;
+        margin-left: 110px;
+        margin-top: -5px;
     }
 
-    #nav {
-        margin-left: 100px;
+    #home {
+        margin-left: 25px;
     }
 
     nav ul li a {
@@ -769,13 +1216,13 @@ header {
         margin-left: 25px;
     }
 
-    enquire-btn1 {
+    #enquire-btn1 {
         padding-top: 4px;
         padding-bottom: 4px;
-        padding-left: 18px;
+        padding-left: 12px;
         margin-top: 8px;
         background-color: #24ABE2;
-        text-align: center;
+        margin-right: 244px;
 
     }
 
@@ -800,7 +1247,8 @@ header {
 
     /* toggle button */
     #toggle {
-        margin-right: 130px;
+        margin-left: 200px;
+        margin-right: 140px;
         font-size: 10px;
         background-color: #24ABE2;
     }
@@ -906,6 +1354,106 @@ header {
     .Our-Accreditations {
         margin-bottom: 8%;
     }
+
+    /* TESTIMONIAL LAYOUT 7 */
+    .Testimonials {
+        background-image: url(../images/Testimonials_bg_img.png);
+        background-repeat: round;
+        background-position: center;
+        height: 1100px;
+    }
+
+    .Testimonials-Carousel .container .row {
+        margin-top: -850px;
+        margin-bottom: -600px;
+        margin-left: 0px;
+        height: 600px;
+        width: 100%;
+    }
+
+    .Testimonials-Carousel h2 {
+        font-size: 40px;
+        margin-top: 25%;
+        margin-left: 10%;
+    }
+
+    .Testimonials-Carousel {
+        margin-bottom: 200px;
+    }
+
+    .icon-quotes {
+        font-size: 4.5rem !important;
+        color: #ffffff;
+        position: absolute;
+        background-color: #24ABE2;
+        padding: 30px;
+        border-radius: 100px;
+        margin-top: -80px;
+        margin-left: 50px;
+    }
+
+    swiper-container {
+        margin-top: 340px;
+        margin-left: 0px;
+        width: 100%;
+        height: 470px;
+    }
+
+    swiper-slide {
+        height: 360px;
+
+    }
+
+    #slide2 {
+        margin-left: 0px;
+    }
+
+    /* LAYOUT 8 BLOG CARDS */
+    .txt-center-2 {
+        z-index: 1;
+        margin-left: 150px;
+        margin-top: -150px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        margin-right: 50px;
+
+    }
+
+    #bluecard {
+        margin-right: 70px;
+    }
+
+    #blog-1 {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    #blog-2 {
+        margin-left: 28px;
+        margin-bottom: 100px;
+        margin-top: 30px;
+    }
+
+    #readmore-btn {
+        padding-right: 15px;
+        padding-left: 19px;
+        width: 30%;
+        background-color: #24ABE2;
+        font-size: x-small;
+    }
+
+    /* LAYOUT 9 */
+    #content-1 {
+        margin-left: 0px;
+    }
+
+    #foot-content {
+        margin-left: 210px;
+    }
+
+    .vatno {
+        margin-left: 40px;
+    }
 }
 
 /* MOBILE */
@@ -916,12 +1464,16 @@ header {
     #logo-size {
         width: 80%;
         height: 100%;
-        margin: 0px;
+        margin-top: 10px;
+        margin-left: 20px;
     }
 
     #nav {
-        margin-left: 24px;
         margin-top: -17px;
+    }
+
+    #home {
+        margin-left: 18px;
     }
 
     #toggle {
@@ -962,14 +1514,15 @@ header {
     }
 
 
-    enquire-btn1 {
+    #enquire-btn1 {
         margin-top: -5px;
         background-color: #24ABE2;
         padding-top: 3px;
         padding-bottom: 3px;
         padding-right: 0px;
-        padding-left: 2px;
+        padding-left: 0px;
         text-align: center;
+        margin-right: 225px;
     }
 
     #bg-img {
@@ -1092,7 +1645,10 @@ header {
     .crop-image img {
         height: 40%;
     }
-
+    .Trading-Cards{
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
     /* croping certificate bg-img */
     .crop-image2 {
         margin-top: -25px;
@@ -1155,11 +1711,153 @@ header {
     }
 
     .Our-Accreditations {
-        margin-bottom: 8%;
+        margin-bottom: 25%;
     }
-    .Our-Accreditations img{
+
+    .Our-Accreditations img {
         width: 500%;
         margin-left: 0%;
         margin-top: 30px;
     }
+
+    /* TESTIMONIAL LAYOUT 7 */
+    .Testimonials {
+        background-image: url(../images/Testimonials_bg_img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 800px;
+    }
+
+    .Testimonials-Carousel .container .row {
+        margin-top: -700px;
+        margin-left: 0px;
+        height: 300px;
+        width: 100%;
+    }
+
+    .Testimonials-Carousel h2 {
+        font-size: 20px;
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+
+    .Testimonials-Carousel p {
+        font-size: small;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+
+    .Testimonials-Carousel {
+        margin-bottom: 200px;
+    }
+
+    .icon-quotes {
+        font-size: 2rem !important;
+        color: #ffffff;
+        position: absolute;
+        background-color: #24ABE2;
+        padding: 20px;
+        border-radius: 100px;
+        margin-top: 260px;
+        margin-left: 20px;
+    }
+
+    swiper-container {
+        margin-top: 600px;
+        margin-left: 0px;
+        width: 100%;
+        height: 300px;
+    }
+
+    swiper-slide i {
+        font-size: 100% !important;
+        background-color: #24ABE2;
+        padding: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: -50px;
+        margin-left: -30px;
+    }
+
+    /* LAYOUT 8 BLOG CARDS */
+    #bluecard {
+        margin-right: 80px;
+    }
+
+    #blog-1 {
+        margin-left: 36px;
+        margin-top: 30px;
+    }
+
+    #blog-2 {
+        margin-left: 20px;
+        margin-bottom: 100px;
+        margin-top: 30px;
+    }
+
+    .txt-center-2 {
+        z-index: 1;
+        margin-left: 120px;
+        margin-top: -68px;
+        margin-right: 50px;
+        font-size: xx-small;
+
+    }
+
+    .blog-cards p {
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .blog-cards h2 {
+        font-size: medium;
+        text-align: center;
+    }
+
+    #readmore-btn {
+        margin-left: 15px;
+        width: 75%;
+        align-self: center;
+        background-color: #24ABE2;
+        font-size: xx-small;
+    }
+
+    /* LAYOUT 9 */
+    #content-1 {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    #foot-content {
+        margin-left: 50px;
+    }
+
+    .vatno {
+        margin-left: 0px;
+    }
+
+    .link-txt {
+        font-size: 100%;
+    }
+
+    #content-1 p {
+        font-size: 80%;
+    }
+
+    #content-2 a,
+    #content-3 a,
+    #content-4 a {
+        font-size: 90%;
+    }
+
+    .para-font {
+        font-size: medium;
+    }
+
+    #content-4 {
+        margin-bottom: 50px;
+    }
+
+
 }
