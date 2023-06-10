@@ -815,7 +815,7 @@ swiper-slide i {
     }
 
     #content-1 {
-        margin-left: 200px;
+        margin-left: 230px;
     }
 
     #content-1 p {
@@ -1166,25 +1166,25 @@ swiper-slide i {
     }
 
     #content-1 {
-        margin-left: 190px;
+        margin-left: 170px;
     }
 
     #content-1 p {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .link-txt {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     #content-2 a,
     #content-3 a,
     #content-4 a {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     .para-font {
-        font-size: small;
+        font-size:x-small;
     }
 
     .fa-lg {
